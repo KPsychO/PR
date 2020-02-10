@@ -1,0 +1,13 @@
+% sudoku solver CLASS SAMPLE
+
+array[0..3, 0..3] of var 1..4 : sudoku;
+
+% Rows
+constraint forall (i in 0..3, j in 0..3, k in j+1..3)
+                  (sudoku[i, j] != sudoku[i, k]);
+
+% Columns
+constraint forall (i in 0..3, j in 0..3, k in i+1..3)
+                  (sudoku[i, j] != sudoku[k, j]);
+
+% Squares
