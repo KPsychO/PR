@@ -1,0 +1,6 @@
+L = 4;
+N = 2;
+C = 6;
+colores = {A, B};
+consumos = [2, 1];
+cantidades = [2, 2];
