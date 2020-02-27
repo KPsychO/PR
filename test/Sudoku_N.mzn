@@ -1,5 +1,5 @@
 include "alldifferent.mzn";
-int: S = 3;
+int: S = 4;
 int: N = S * S;
 int: digs = ceil(log(10.0,int2float(N))); % digits for output
 
