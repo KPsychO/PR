@@ -1,0 +1,7 @@
+D = 9;
+T = 15;
+N = 3;
+maxDT = 4;
+maxDL = 2;
+minDT = 4;
+supervisors = [false, false, false, true, false, true, false, true, true, false, true, false, false, false, true];
