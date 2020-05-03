@@ -1,0 +1,16 @@
+Diego Atance Sanz
+
+Se incluye la solucion codificando las restricciones dadas salvo la 8 (Dados cuáles de los trabajadores son “supervisores”, garantizar que en cada turno hay
+un supervisor)
+
+La restriccion 2 no se ha considerado necesaria dado que la matriz solucion no permite que un trabajador tenga 2 turnos asignados.
+
+Se incluyen ademas 3 conjuntos de datos, 2 triviales y el tercero un poco m'as pesado.
+
+data1 -> 500ms - 5575ms
+data2 -> 1s 200ms
+data3 -> 3s 500ms
+
+Se ha intentado aumentar mas el tamano del problema, generando que no finalizase en 30+ minutos.
+
+Lamentablemente, por falta de tiempo no se ha implementado el apartado de optimizacion.
